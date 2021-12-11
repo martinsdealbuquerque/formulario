@@ -1,0 +1,59 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+   
+    color: var(--cor-texto);
+    background:lightgreen;
+    font-size: 18px;
+    margin: 0;
+}
+
+.form-container{
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    width: 100%;
+    min-width: 50%;
+    border-radius: 7px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.form-button{
+    background: lightgreen;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input{
+    line-height: 2em;
+    padding: 0px 8px;
+    font-size: 1em;
+    border: 0;
+    box-shadow:   1px 3px 2px rgba(0, 0, 0, 0.09);
+}
+
+form label{
+    font-size: 0.9em;
+}
